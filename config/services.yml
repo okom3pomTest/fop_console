@@ -28,3 +28,8 @@ services:
     class: FOP\Console\Commands\CheckServiceContainer
     tags:
       - { name: console.command }
+
+  fop.console.debug_config.command:
+    class: FOP\Console\Commands\DebugConfig
+    tags:
+      - { name: console.command }
